@@ -1,0 +1,213 @@
+div {
+    border: 1px solid #1F2937;
+
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.first.section {
+    /* padding: 0 auto 0 5px; */
+    color: white;
+    background-color: #1F2937;
+
+}
+
+.first .header {
+    display: flex;
+    /* align-self: center; */
+    /* width: 200px; */
+    flex: auto;
+    /* justify-content: flex-end; */
+
+}
+
+.navbar li {
+    display: inline-block;
+    /* list-style: none; */
+    /* font-size: large; */
+    padding: 0 10px;
+}
+
+.header #logo {
+    display: flex;
+    flex: auto;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+
+.header,
+#contents {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#contents {
+    display: flex;
+    margin: 55px auto;
+    margin-bottom: 100px;
+
+}
+
+#contents button {
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 20%;
+    border-style: hidden;
+}
+
+#contents #image {
+    background-color: grey;
+    /* width: 700px; */
+    flex: 1;
+    margin-left: 30px;
+    /* align-self: self-end; */
+
+}
+
+#contents #hero {
+    font-size: 48px;
+    font-weight: 900px;
+    margin: 0;
+}
+
+#contents p,
+.navbar li {
+    font-size: 18px;
+
+}
+
+
+/* Second Section */
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+    border: none;
+
+}
+
+.box {
+    border: 3px solid #3882F6;
+    width: 22vh;
+    height: 22vh;
+    border-radius: 10%;
+}
+
+.container>div {
+    border: none;
+    text-align: center;
+}
+
+.second>p {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.container p {
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+
+}
+
+/* Third Section  */
+
+.third {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    border: none;
+
+}
+
+.third>div {
+    width: 80vw;
+    margin: 80px 0;
+    border: none;
+}
+
+#thor {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50;
+    border: none;
+}
+
+.third #testimony {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+#thor>p {
+    padding: 0 60px;
+    font-size: 20px;
+
+}
+
+/* Fourth Section  */
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+
+}
+
+.fourth .middle {
+    width: 90vw;
+    height: 20vh;
+    display: flex;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border: none;
+}
+
+.inner-1 {
+    margin-left: 100px;
+    padding: 0px;
+    border: none;
+}
+
+.inner-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.inner-2>button {
+    font-weight: bold;
+    padding: 5px 20px;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+/* Footer  */
+
+#footer {
+    background-color: #1F2937;
+}
+
+#footer>p {
+    width: 25vw;
+    margin: 20px auto;
+    color: white;
+}
